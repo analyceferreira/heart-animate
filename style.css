@@ -1,0 +1,70 @@
+@keyframes pulsar {
+    0% {    
+        transform: rotate(45deg) scale(0.7);
+    }
+    100% {
+        transform: rotate(45deg) scale(1);
+    }
+}
+
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #0c0f1b;
+    margin: none;
+    padding: none;
+    height: 100vh;
+}
+
+.a{ 
+
+}
+.heart{
+    position: relative;
+    width: 80px;
+    height: 130px;
+    left: 20px;
+
+    background-color: #b6b6b6;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    transform: rotate(45deg);
+
+    animation: pulsar 1s infinite alternate;
+    box-shadow: 0 0 40px #010822;
+
+}
+
+.heart:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #ababab ;
+
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+    transform: rotate(-90deg) translateY(80px);
+    transform-origin: left bottom;
+    box-shadow: 0 0 40px #010822;
+}
+
+.heart:hover {
+    background-color: #4acaa0;
+    box-shadow: 0 0 50px #00231e;
+
+    animation: none;
+}
+
+.heart:hover:after {
+    background-color: #49b893;
+    box-shadow: 0 0 50px #00231e;
+}
+
