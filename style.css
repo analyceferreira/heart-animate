@@ -1,28 +1,17 @@
-@keyframes pulsar {
-    0% {    
-        transform: rotate(45deg) scale(0.7);
-    }
-    100% {
-        transform: rotate(45deg) scale(1);
-    }
-}
-
-
-
+/*************** Global configs *****************/
 body{
     display: flex;
     align-items: center;
     justify-content: center;
 
     background-color: #0c0f1b;
-    margin: none;
-    padding: none;
     height: 100vh;
+    box-sizing: border-box;
 }
 
-.a{ 
 
-}
+
+/*************** Drawing heart *****************/
 .heart{
     position: relative;
     width: 80px;
@@ -50,17 +39,21 @@ body{
     border-radius: 10px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+    border-bottom-right-radius: 0px;
     
     transform: rotate(-90deg) translateY(80px);
     transform-origin: left bottom;
     box-shadow: 0 0 40px #010822;
 }
 
+
+
+/*************** Pulse animation *****************/
 .heart:hover {
     background-color: #4acaa0;
     box-shadow: 0 0 50px #00231e;
 
-    animation: none;
+    animation-play-state: paused;
 }
 
 .heart:hover:after {
@@ -68,3 +61,14 @@ body{
     box-shadow: 0 0 50px #00231e;
 }
 
+
+
+/*************** Pulse animation *****************/
+@keyframes pulsar {
+    0% {    
+        transform: rotate(45deg) scale(0.7);
+    }
+    100% {
+        transform: rotate(45deg) scale(1);
+    }
+}

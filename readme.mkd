@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="style.css">
+
+<br><br><br><br>
+
+<h1  style="; padding-top:200px;">Heart Animate</h1>
+<img src="https://img.shields.io/badge/HTML-orange?&style=flat&logo=html&logoColor=white" /> <img src="https://img.shields.io/badge/CSS-blue?&style=flat&logo=HTM&logoColor=white" /> <img src="https://img.shields.io/badge/-Finished-brightgreen" />
+
+<br>
+
+<div class="heart" style="margin: 0 auto"></div>
+
+<br><br>
+
+## Sobre
+
+Código simple de CSS e HTML para criar a animação de um coração pulsando na tela que altera a cor e fica estático ao interagir com o cursor do mouse 
+
+<br>
+
+## Objetivo
+
+O objetivo desse projeto é construir uma animação utilizando recursos nativos do CSS como *:hover :after e @keyframes*
+
+<br>
+
+## Techs
+
+* HTML
+* CSS
+
+<br>
+
+## Features
+
+* Manipulação de DOM
+* Criação de vetor com CSS
+* Animação com @keyframe
+* Interação com :houver
+
+<br>
+
+## [Preview](https://codepen.io/analyceferreira/pen/jOYQvjY?editors=1100)
+
+[Clique aqui](https://codepen.io/analyceferreira/pen/jOYQvjY?editors=1100) para ver no Code Pen
+
+<br>
+
+## Autor
+
+**Analyce Ferreira** <br>
+Me siga no [GitHub](https://github.com/analyceferreira) e aproveite! <br>
+Obrigada por visitar meu código, espero que curta e ajude no seu conheciomento!
+
