@@ -1,15 +1,9 @@
-<link rel="stylesheet" href="style.css">
-
-<br><br><br><br>
-
-<h1  style="; padding-top:200px;">Heart Animate</h1>
+<h1  style="padding-top:20px;"><img src="./assets/icon-heart-animate-2.png" style="width:60px; margin-bottom:-15px"/> Heart Animate</h1>   
 <img src="https://img.shields.io/badge/HTML-orange?&style=flat&logo=html&logoColor=white" /> <img src="https://img.shields.io/badge/CSS-blue?&style=flat&logo=HTM&logoColor=white" /> <img src="https://img.shields.io/badge/-Finished-brightgreen" />
 
 <br>
 
-<div class="heart" style="margin: 0 auto"></div>
-
-<br><br>
+<br>
 
 ## Sobre
 
@@ -42,6 +36,10 @@ O objetivo desse projeto é construir uma animação utilizando recursos nativos
 ## [Preview](https://codepen.io/analyceferreira/pen/jOYQvjY?editors=1100)
 
 [Clique aqui](https://codepen.io/analyceferreira/pen/jOYQvjY?editors=1100) para ver no Code Pen
+
+<img src="./assets/heart-animatetion-preview.png">
+<img src="./assets/heart-animatetion-preview-2.png">
+<img src="./assets/heart-animatetion-preview-3.png">
 
 <br>
 
